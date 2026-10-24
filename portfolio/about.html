@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Your Name</title>
+    <meta
+      name="description"
+      content="Biography, education, skills and interests."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="visually-hidden-focusable skip-link" href="#main"
+      >Skip to main content</a
+    >
+    <nav class="navbar navbar-expand-md sticky-top site-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Your Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-md-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <header class="page-head">
+        <div class="container">
+          <h1>About me</h1>
+          <p class="lead">Who I am, what I study, and what I like to build.</p>
+        </div>
+      </header>
+
+      <!-- BIOGRAPHY -->
+      <section class="section pt-0">
+        <div class="container">
+          <div class="row g-5 align-items-start">
+            <div class="col-md-4">
+              <img
+                src="images/profile.svg"
+                class="img-fluid portrait"
+                alt="Portrait of Your Name"
+                width="600"
+                height="600"
+              />
+            </div>
+            <div class="col-md-8">
+              <h2 class="section-title">My story</h2>
+              <p>
+                I'm Your Name, a Computer Science student at Your University in
+                Kampala, Uganda. I started programming because I wanted to
+                understand how the apps I use every day actually work, and I
+                haven't stopped asking that question since.
+              </p>
+              <p>
+                My first real breakthrough was writing a Java program that
+                modelled a bank account, complete with custom exceptions for
+                failed withdrawals. Seeing my own code handle mistakes
+                gracefully made software feel like engineering, not just typing.
+              </p>
+              <p>
+                Today I split my time between object-oriented design, data
+                structures and algorithms, and building responsive websites. I'm
+                especially interested in software that solves local problems,
+                such as mobile payments, education tools and small-business
+                systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section alt">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <ol class="timeline">
+                <li>
+                  <span class="when">2024 &ndash; Present</span>
+                  <h3>BSc Computer Science</h3>
+                  <p>
+                    Your University, Kampala. Focus on programming, systems and
+                    software design.
+                  </p>
+                </li>
+                <li>
+                  <span class="when">2022 &ndash; 2023</span>
+                  <h3>Uganda Advanced Certificate of Education (UACE)</h3>
+                  <p>
+                    Your Secondary School. Subjects relevant to computing and
+                    mathematics.
+                  </p>
+                </li>
+                <li>
+                  <span class="when">2018 &ndash; 2021</span>
+                  <h3>Uganda Certificate of Education (UCE)</h3>
+                  <p>
+                    Your Secondary School. Built a strong base in mathematics
+                    and sciences.
+                  </p>
+                </li>
+              </ol>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="h5 mb-3">Key coursework</h3>
+              <div class="table-responsive">
+                <table class="table align-middle course-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Course</th>
+                      <th scope="col">What I practise</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Object-Oriented Programming (Java)</th>
+                      <td>
+                        Encapsulation, inheritance, interfaces, exceptions,
+                        packages
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Data Structures &amp; Algorithms</th>
+                      <td>
+                        Arrays, linked lists, stacks, queues, trees, sorting
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">System Analysis &amp; Design</th>
+                      <td>Requirements, UML diagrams, system lifecycle</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Web Development</th>
+                      <td>HTML5, CSS3, Bootstrap 5, Git and GitHub</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <h3 class="h5 mb-3">Technical</h3>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                  <span>Java</span><span>80%</span>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Java"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                  <span>HTML5 &amp; CSS3</span><span>85%</span>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="HTML5 and CSS3"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                  <span>Bootstrap 5</span><span>75%</span>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Bootstrap 5"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                  <span>Git &amp; GitHub</span><span>70%</span>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Git and GitHub"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                  <span>Data structures &amp; algorithms</span><span>60%</span>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Data structures and algorithms"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="h5 mb-3">Soft skills</h3>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge badge-soft">Problem solving</span>
+                <span class="badge badge-soft">Teamwork</span>
+                <span class="badge badge-soft">Clear communication</span>
+                <span class="badge badge-soft">Time management</span>
+                <span class="badge badge-soft">Curiosity</span>
+                <span class="badge badge-soft">Attention to detail</span>
+              </div>
+              <h3 class="h5 mb-3">Tools</h3>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge badge-tool">VS Code</span>
+                <span class="badge badge-tool">IntelliJ IDEA</span>
+                <span class="badge badge-tool">Git</span>
+                <span class="badge badge-tool">GitHub Pages</span>
+                <span class="badge badge-tool">Chrome DevTools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERESTS -->
+      <section class="section alt">
+        <div class="container">
+          <h2 class="section-title">Interests &amp; hobbies</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="interest">
+                <i class="bi bi-puzzle"></i>
+                <h3>Puzzles and algorithms</h3>
+                <p>
+                  I enjoy coding challenges and finding a faster way to solve
+                  the same problem.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="interest">
+                <i class="bi bi-people"></i>
+                <h3>Study groups</h3>
+                <p>
+                  Explaining a concept to classmates is the best way I know to
+                  learn it properly.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="interest">
+                <i class="bi bi-dribbble"></i>
+                <h3>Football and music</h3>
+                <p>
+                  Weekend matches with friends and a good playlist keep me
+                  balanced.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-md-4">
+            <p class="mb-0">&copy; 2026 Your Name. All rights reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <nav class="footer-links" aria-label="Footer">
+              <a href="index.html">Home</a> <a href="about.html">About</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <a
+              href="https://github.com/your-username"
+              aria-label="GitHub"
+              class="social"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/your-username"
+              aria-label="LinkedIn"
+              class="social"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="mailto:your.name@university.ac.ug"
+              aria-label="Email"
+              class="social"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+            <a
+              href="https://x.com/your-username"
+              aria-label="X (Twitter)"
+              class="social"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
