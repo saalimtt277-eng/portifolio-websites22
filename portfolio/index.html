@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Your Name</title>
+    <meta
+      name="description"
+      content="Portfolio of a Computer Science student: Java, web development and problem solving."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <video width="640" controls>
+      <source src="video/motivation.mp4" type="video/mp4" />
+    </video>
+
+    <a class="visually-hidden-focusable skip-link" href="#main"
+      >Skip to main content</a
+    >
+    <nav class="navbar navbar-expand-md sticky-top site-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Your Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto gap-md-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7">
+              <p class="hero-kicker">Hello, I'm Your Name.</p>
+              <h1 class="hero-title">
+                I build software that is
+                <span class="mark">simple to use</span> and solid underneath.
+              </h1>
+              <p class="hero-lead">
+                Computer Science student in Kampala, learning Java, data
+                structures and web development, and looking for an internship
+                where I can ship real features.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="about.html" class="btn btn-brand btn-lg"
+                  >Learn more about me</a
+                >
+                <a href="contact.html" class="btn btn-outline-ink btn-lg"
+                  >Get in touch</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <figure
+                class="code-card mb-0"
+                aria-label="A Java class describing me"
+              >
+                <pre><code><span class="c-k">public class</span> <span class="c-t">Student</span> {
+  <span class="c-t">String</span>  name    = <span class="c-s">"Your Name"</span>;
+  <span class="c-t">String</span>  program = <span class="c-s">"BSc Computer Science"</span>;
+  <span class="c-t">String</span>[] focus  = {
+      <span class="c-s">"Java"</span>, <span class="c-s">"Web"</span>, <span class="c-s">"DSA"</span>
+  };
+  <span class="c-k">boolean</span> openToInternships = <span class="c-k">true</span>;
+}</code></pre>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HIGHLIGHTS -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">At a glance</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <article class="glance h-100">
+                <i class="bi bi-braces glance-icon"></i>
+                <h3>Core skills</h3>
+                <p>
+                  Object-oriented programming in Java, HTML5 and CSS3 with
+                  Bootstrap, Git and GitHub, and a growing toolkit of data
+                  structures and algorithms.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="glance h-100">
+                <i class="bi bi-mortarboard glance-icon"></i>
+                <h3>Currently studying</h3>
+                <p>
+                  BSc Computer Science at Your University, with coursework in
+                  Java OOP, data structures and algorithms, and system analysis
+                  and design.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="glance h-100">
+                <i class="bi bi-trophy glance-icon"></i>
+                <h3>Featured work</h3>
+                <p>
+                  A Java banking program with custom exceptions, plus this
+                  portfolio, built from scratch and hosted live on GitHub Pages.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA STRIP -->
+      <section class="section pt-0">
+        <div class="container">
+          <div class="strip">
+            <div>
+              <h2 class="h3 mb-1">Want to see how I got here?</h2>
+              <p class="mb-0">
+                Watch my short video on why I chose Computer Science.
+              </p>
+            </div>
+            <a href="gallery.html" class="btn btn-ink btn-lg"
+              >Watch the video</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-md-4">
+            <p class="mb-0">&copy; 2026 Your Name. All rights reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <nav class="footer-links" aria-label="Footer">
+              <a href="index.html">Home</a> <a href="about.html">About</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <a
+              href="https://github.com/your-username"
+              aria-label="GitHub"
+              class="social"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/your-username"
+              aria-label="LinkedIn"
+              class="social"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="mailto:your.name@university.ac.ug"
+              aria-label="Email"
+              class="social"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+            <a
+              href="https://x.com/your-username"
+              aria-label="X (Twitter)"
+              class="social"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
